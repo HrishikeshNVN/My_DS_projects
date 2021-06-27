@@ -1,0 +1,32 @@
+Gold_Price_Prediction
+====================
+
+SPX = The Standard and Poor's 500,[2] or simply the S&P 500,[4] is a stock market index tracking the stock performance of 500 of the largest companies listed on stock exchanges in the United States
+GLD = An exchange traded fund (ETF) is a type of security that tracks an index, sector, commodity, or other asset, but which can be purchased or sold on a stock exchange the same as a regular stock.Here its a commodity(gold) which can be purchased or sold on a stock exchange the same as a regular stock.
+USO = The United States Oil Fund (USO) is an exchanged-traded product (ETP) that seeks to provide investment results corresponding to the daily price movements of West Texas Intermediate (WTI) light, sweet crude oil. 
+SLV = The iShares Silver Trust (SLV) is an exchange traded fund (ETF) that tracks the price performance of the underlying holdings in the London Silver Fix Price. 
+EUR/USD = EUR/USD is the forex ticker that tells traders how many US Dollars are needed to buy a Euro. 
+
+shape =(2290, 6)
+isnull = No null values
+
+df-INFO
+======
+ Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   Date     2290 non-null   object 
+ 1   SPX      2290 non-null   float64
+ 2   GLD      2290 non-null   float64
+ 3   USO      2290 non-null   float64
+ 4   SLV      2290 non-null   float64
+ 5   EUR/USD  2290 non-null   float64
+ 
+ OBSERVATIONS FROM CORRELATIONS
+ ============
+ TARGET GLD is positively much correlated with SLV.
+ SPX is negatively correlated with EUR/USD
+ SPX is negatively correlated with USO
+ USO is positively correlated with EUR/USD
+ 
+ 
+ 
